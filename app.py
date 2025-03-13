@@ -115,5 +115,9 @@ def speak_text():
     # Send the file as a response
     return send_file(temp_audio_path, mimetype="audio/mpeg")
 
+@app.route('/google37308a654a63d59b.html')
+def verify_google():
+    return send_from_directory('.', 'googleXXXXXXXXXXXX.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
