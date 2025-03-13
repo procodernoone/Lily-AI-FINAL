@@ -117,7 +117,7 @@ def speak_text():
 
 @app.route('/google37308a654a63d59b.html')
 def verify_google():
-    return send_from_directory('.', 'googleXXXXXXXXXXXX.html')
+    return send_from_directory('.', 'google37308a654a63d59b.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
