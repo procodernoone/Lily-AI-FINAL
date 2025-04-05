@@ -66,7 +66,7 @@ def home():
     return render_template("index.html")
 
 @app.route("/google37308a654a63d59b.html")
-def google37308a654a63d59b.html():
+def google_verification():
     return render_template("google37308a654a63d59b.html")
 
 @app.route("/ai")
