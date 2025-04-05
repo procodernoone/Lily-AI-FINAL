@@ -65,6 +65,10 @@ def get_ai_response(user_input):
 def home():
     return render_template("index.html")
 
+@app.route("/google37308a654a63d59b.html")
+def google37308a654a63d59b.html():
+    return render_template("google37308a654a63d59b.html")
+
 @app.route("/ai")
 def ai():
     return render_template("ai.html")  # Chat Page
