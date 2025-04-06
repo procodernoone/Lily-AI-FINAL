@@ -123,5 +123,12 @@ def speak_text():
 def verify_google():
     return send_from_directory('.', 'google37308a654a63d59b.html')
 
+from flask import send_from_directory
+
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('static', 'sitemap.xml')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
